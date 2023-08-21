@@ -1,0 +1,179 @@
+<html>
+    <head>
+        <title>BoomPanda Login Page</title>
+        <script src="./boompanda.js" defer></script>
+        <link href="./boompanda.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+            <div class="about">
+                PANDA
+            </div>
+            <div class="explore">
+                EXPLORE
+            </div>
+            <div class="upcoming">
+                EVENTS
+            </div>
+            <div class="community">
+                COMMUNITY
+            </div>
+            <div class="contact">
+                CONTACT US
+            </div>
+            <div class="login">
+                LOGIN
+            </div>
+            <div class="signup">
+                <a href="./index.html" class="signuplink">SIGN UP</a>
+            </div>
+        </div>
+        <div>
+        <div class="boompanda">
+            <h1>B</h1>
+            <h1>O</h1>
+            <h1>O</h1>
+            <h1>M</h1>
+            <h1>P</h1>
+            <h1>A</h1>
+            <h1>N</h1>
+            <h1>D</h1>
+            <h1>A</h1>
+        </div>
+        <div class="loginwindow">
+            <div class="done">
+                <img src="./PICS/done.png" height="200px" class="donelogo">
+                <h1 class="ACS">&nbsp&nbsp&nbsp&nbsp&nbspACCOUNT<br>&nbsp&nbsp&nbsp&nbsp&nbspCREATED<br>SUCCESSFULLY</h1>
+            </div>
+            <div class="createacc">
+                &nbspSGN-UP FORM&nbsp
+            </div>
+            <div class="name">
+                <div>
+                    <label for ="fname" class="fname">
+                        First Name
+                    </label>
+                    <input type="text" id="fname" placeholder="Enter First Name" onclick="CheckRed()" autocomplete="off">
+                </div>  
+                <div>
+                    <label for ="mname" class="mname">
+                        Middle Name
+                    </label>
+                    <input type="text" id="mname" placeholder="Enter Middle Name" autocomplete="off">
+                </div>
+                <div>
+                    <label for ="lname" class="lname">
+                        Last Name
+                    </label>
+                    <input type="text" id="lname" placeholder="Enter Last Name" onclick="CheckRed()" autocomplete="off">
+                </div>
+            </div>
+            <div class="phone">
+                <div>
+                    <label for="pnum" class="pnum">
+                        Phone Number
+                    </label>
+                    <input type="number" id="pnum" placeholder="Enter Phone Number" onclick="CheckRed()" onkeypress="CheckNum()" autocomplete="off">
+                </div>
+            </div>
+            <div class="emailid">
+                <div>
+                    <label for="email" class="email">
+                        Email ID
+                    </label>
+                    <input type="email" id="email" placeholder="BoomPanda@gmail.com" onclick="CheckRed()" autocomplete="off">
+                </div>
+            </div>
+            <div class="authenticate">
+                <div class="p">
+                    <label for="pass" class="pass">
+                        Password
+                    </label>
+                    <input type="password" id="pass" placeholder="New Password" onclick="CheckRed()" autocomplete="off">
+                </div>
+                <div class="rp">
+                    <label for="rpass" class="rpass">
+                        Re-enter Password
+                    </label>
+                    <input type="password" id="rpass" placeholder="Re-enter Password" onclick="CheckRed()" autocomplete="off">
+                </div>
+            </div>
+            <div class="collegedata">
+                <label for="college" class="college">
+                    Select Your College
+                </label>
+                <select id="college" onclick="CheckRed()">
+                    <option>
+                        Select College
+                    </option>
+                    <option>
+                        TSSM'S BSCOER, Narhe
+                    </option>
+                    <option>
+                        JSPM NTC, Narhe
+                    </option>
+                    <option>
+                        SITS, Narhe
+                    </option>
+                    <option>
+                        SKN, Vadgaon Budruk
+                    </option>
+                    <option>
+                        SCOE, Vadgaon
+                    </option>
+
+                </select>
+            </div>
+            <div class="gender">
+                Select Gender : 
+                <div class="male" onclick="CheckRed()">
+                    <input type="radio" id="male" name="gender" value="M">
+                    M
+                </div>
+                <div class="fmale">
+                    <input type="radio" id="fmale" name="gender" value="F">
+                    F
+                </div>
+                <div class="oth">
+                    <input type="radio" id="oth"  name="gender" value="O">
+                    O
+                </div>
+            </div>
+            <div class="submit">
+                <input type="button" onclick="Disp()" id="createaccount" value="PROCEED">
+            </div>
+            <div class="or" style="font-size: 12px;">
+                -------- OR --------
+            </div>
+            <div class="social">
+                <div class="continue" >
+                    Proceed With
+                </div>
+                <div class="images">
+                    <div class="google">
+                        <a href="https://www.google.com/" target="_blank">
+                            <img src="./PICS/google.png" height=50>
+                        </a>
+                    </div>
+                    <div class="linkedin">
+                        <a href="https://www.linkedin.com/login" target="_blank">
+                            <img src="./PICS/linkedin.png" height=50>
+                        </a>
+                    </div>
+                    <div class="twitter">
+                        <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D" target="_blank">
+                            <img src="./PICS/twitter (2).png" height=50>
+                        </a>
+                    </div>
+                    <div class="instagram">
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <img src="./PICS/instagram.png" height=50>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>  
+        </div>
+    </div>
+    </body>
+</html>
